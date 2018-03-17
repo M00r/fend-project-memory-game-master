@@ -3,14 +3,11 @@
 # Memory Game
 
 
-## Installing from Source
+## PLay on GitHub repo
 
-1. Clone the following repo: 
-  * https://github.com/M00r/fend-project-memory-game-master.git
+1. Load page: https://m00r.github.io/fend-project-memory-game-master/
 
-2. Load index.html in browser.
-
-3. Play the game
+2. Play the game
 
 ## How to Play:
 
