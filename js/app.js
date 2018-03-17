@@ -1,7 +1,7 @@
 // ENG / PL
 // List of all cards 
 // Lista wszystkich kart
-let objects = ['anchor', 'anchor', 'bicycle', 'bicycle', 'bolt', 'bolt', 'bomb', 'bomb', 'cube', 'cube', 'diamond','diamond', 'leaf', 'leaf', 'paper-plane-o', 'paper-plane-o'],
+let objects = ['anchor', 'anchor', 'paw', 'paw', 'bolt', 'bolt', 'bomb', 'bomb', 'cube', 'cube', 'diamond','diamond', 'leaf', 'leaf', 'paper-plane-o', 'paper-plane-o'],
 
 
     
@@ -30,9 +30,9 @@ let objects = ['anchor', 'anchor', 'bicycle', 'bicycle', 'bolt', 'bolt', 'bomb',
     
     // Scoring system 
     // Punktacja
-    stars3 = 10,
-    stars2 = 15,
-    star1 = 20;
+    stars3 = 15,
+    stars2 = 20,
+    star1 = 25;
     /*
      * Display the cards on the page
      *   - shuffle the list of cards using the provided "shuffle" method below
