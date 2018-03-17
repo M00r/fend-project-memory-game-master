@@ -24,7 +24,7 @@ let objects = ['anchor', 'anchor', 'bicycle', 'bicycle', 'bolt', 'bolt', 'bomb',
     match = 0,
     second = 0,
     moves = 0,
-    wait = 120,
+    wait = 500,
     totalCard = objects.length / 2,
 
     
