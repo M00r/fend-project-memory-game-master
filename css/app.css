@@ -14,11 +14,12 @@ body {
     height: 100%;
     margin: 0;
     padding: 0;
+    
 }
 
 body {
     background: #ffffff url('../img/geometry2.png'); /* Background pattern from Subtle Patterns */
-    font-family: 'Coda', cursive;
+    font-family: 'Indie Flower', cursive;
 }
 
 .container {
@@ -29,7 +30,7 @@ body {
 }
 
 h1 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Indie Flower', sans-serif;
     font-weight: 300;
 }
 

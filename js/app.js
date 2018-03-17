@@ -24,7 +24,7 @@ let objects = ['anchor', 'anchor', 'bicycle', 'bicycle', 'bolt', 'bolt', 'bomb',
     match = 0,
     second = 0,
     moves = 0,
-    wait = 500,
+    wait = 600,
     totalCard = objects.length / 2,
 
     
@@ -143,7 +143,7 @@ let addCardListener = function () {
         // Sprawdzenie czy karty pasują
         if (allOpen.length > 1) {
             if (card === allOpen[0]) {
-                $deck.find('.open').addClass('match');
+                $deck.find('.open').addClass('match animated bounceIn');
                 setTimeout(function () {
                     $deck.find('open').removeClass('open show');
                 }, wait);
