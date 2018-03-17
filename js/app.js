@@ -32,7 +32,7 @@ let objects = ['anchor', 'anchor', 'bicycle', 'bicycle', 'bolt', 'bolt', 'bomb',
     // Punktacja
     stars3 = 10,
     stars2 = 15,
-    star1 = 20,
+    star1 = 20;
     /*
      * Display the cards on the page
      *   - shuffle the list of cards using the provided "shuffle" method below
@@ -135,7 +135,7 @@ let addCardListener = function () {
             return true;
         }
 
-        let card = $this.context.innerHTML;
+        let card = $this.html();
         $this.addClass('open show');
         allOpen.push(card);
 
