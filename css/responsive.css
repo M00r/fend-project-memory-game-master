@@ -1,0 +1,32 @@
+@media screen and (max-width: 500px) {
+    .deck {
+        padding: 1em;
+    }
+
+    .card {
+        font-size: 20px;
+    }
+
+    .restart {
+        order: -1;
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+
+    #winnerModal {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .score-panel {
+        text-align: center;
+    }
+
+    .restart,
+    .moves,
+    .timer,
+    .score-panel {
+        flex-basis: 100%;
+    }
+}
