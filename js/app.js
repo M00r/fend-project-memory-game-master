@@ -1,10 +1,10 @@
 // ENG / PL
 // List of all cards 
 // Lista wszystkich kart
-let objects = ['anchor', 'anchor', 'paw', 'paw', 'bolt', 'bolt', 'bomb', 'bomb', 'cube', 'cube', 'diamond','diamond', 'leaf', 'leaf', 'paper-plane-o', 'paper-plane-o'],
+let objects = ['anchor', 'anchor', 'paw', 'paw', 'bolt', 'bolt', 'bomb', 'bomb', 'cube', 'cube', 'diamond', 'diamond', 'leaf', 'leaf', 'paper-plane-o', 'paper-plane-o'],
 
 
-    
+
     // jQuery shortcut selectors 
     // Skróty do jQuery
     $container = $('.container'),
@@ -14,9 +14,9 @@ let objects = ['anchor', 'anchor', 'paw', 'paw', 'bolt', 'bolt', 'bomb', 'bomb',
     $timer = $('.timer'),
     $restart = $('.restart'),
     $deck = $('.deck'),
-   
-    
-    
+
+
+
     // Set var 
     // Ustawienie stałych
     nowTime,
@@ -27,32 +27,33 @@ let objects = ['anchor', 'anchor', 'paw', 'paw', 'bolt', 'bolt', 'bomb', 'bomb',
     wait = 600,
     totalCard = objects.length / 2,
 
-    
+
     // Scoring system 
     // Punktacja
     stars3 = 15,
     stars2 = 20,
     star1 = 25;
-    /*
-     * Display the cards on the page
-     *   - shuffle the list of cards using the provided "shuffle" method below
-     *   - loop through each card and create its HTML
-     *   - add each card's HTML to the page
-     */
+/*
+ * Display the cards on the page
+ *   - shuffle the list of cards using the provided "shuffle" method below
+ *   - loop through each card and create its HTML
+ *   - add each card's HTML to the page
+ */
 
-    // Shuffle function from http://stackoverflow.com/a/2450976
+// Shuffle function from http://stackoverflow.com/a/2450976
 function shuffle(array) {
-        let currentIndex = array.length, temporaryValue, randomIndex;
+    let currentIndex = array.length,
+        temporaryValue, randomIndex;
 
-        while (currentIndex !== 0) {
-            randomIndex = Math.floor(Math.random() * currentIndex);
-            currentIndex -= 1;
-            temporaryValue = array[currentIndex];
-            array[currentIndex] = array[randomIndex];
-            array[randomIndex] = temporaryValue;
-        }
+    while (currentIndex !== 0) {
+        randomIndex = Math.floor(Math.random() * currentIndex);
+        currentIndex -= 1;
+        temporaryValue = array[currentIndex];
+        array[currentIndex] = array[randomIndex];
+        array[randomIndex] = temporaryValue;
+    }
 
-        return array;
+    return array;
 }
 
 
@@ -72,14 +73,14 @@ function init() {
     moves = 0;
     $moves.text('0');
 
-    
+
     // Loop which creates 16 <li> tags with the class of card for every <i> tag 
     // Pętla tworzy 16 klas <li>, która każda posiada tag <i>
     for (let i = 0; i < allCards.length; i++) {
         $deck.append($('<li class="card"><i class="fa fa-' + allCards[i] + '"></i></li>'))
     }
     addCardListener();
-    
+
     //Just game restart :D which reset time to 0. 
     // Reset gry
     resetTimer(nowTime);
@@ -100,7 +101,9 @@ function rating(moves) {
         $rating.eq(1).removeClass('fa-star').addClass('fa-star-o');
         rating = 1;
     }
-    return { score: rating };
+    return {
+        score: rating
+    };
 }
 
 // Add boostrap modal alert window showing time, moves, score it took to finish the game, toggles when all pairs are         matched.

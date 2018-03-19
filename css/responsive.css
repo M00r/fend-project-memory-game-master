@@ -1,122 +1,116 @@
-@media screen and (max-width: 750px) {
-  .container {
-      width: 250px;
-      display: block;
-      margin: auto;
-      box-sizing: border-box;
-  }
-  h1 {
-      font-size: 30px;
-  }
-  .container {
-      width: 235px;
-      height: 25px;
-      display: flex;
-  }
-
-  .container {
-      margin: 0 10px 0 10px;
-      padding: 5px 5px 0 5px;
-  }
-
-  .container {
-      min-width: 78px;
-      min-height: 40px;
-      padding-bottom: 5px;
-      margin-top: 0;
-      padding-top: 0;
-  }
-  .container {
-      margin: 5px;
-      padding: 5px;
-  }
- 
-  .container .score-panel {
-      width: 275px;
-      margin: 0;
-      padding: 0;
-  }
-  .container .deck {
-      width: 232px;
-      min-height: 100px;
-      margin: 10px;
-  }
-  .deck .card {
-      width: 50px;
-      height: 50px;
-      margin: 4px;
-      padding: 2px;
-  }
-  .container .score-panel {
-      font-size: 15px;
-      width: 225px;
-      margin: 10px 0;
-  }
-  .score-panel .stars {
-      margin: 0 5px 0 5px;
-  }
-  .container .score-panel .timer {
-      margin-right: 0;
-      padding-right: 0;
-  }
-@media screen and (max-width: 475px) {
-  .container {
-      width: 275px;
-      display: block;
-      margin: auto;
-      box-sizing: border-box;
-  }
-  h1 {
-      font-size: 30px;
-  }
-  .container {
-      width: auto;
-      height: auto;
-      display: flex;
-  }
-
-  .container {
-      margin: 0 10px 0 10px;
-      padding: 5px 5px 0 5px;
-  }
-
-  .container {
-      min-width: 26px;
-      min-height: 15px;
-      padding-bottom: 5px;
-      margin-top: 0;
-      padding-top: 0;
-  }
-  .container {
-      margin: 5px;
-      padding: 5px;
-  }
-
-  .container .score-panel {
-      width: 100px;
-      margin: 0;
-      padding: 0;
-  }
-  .container .deck {
-      width: 320px;
-      min-height: 320px;
-      margin: 100px;
-  }
-  .deck .card {
-      width: 50px;
-      height: 50px;
-      margin: 5px;
-      padding: 10px;
-  }
-  .container .score-panel {
-      font-size: 18px;
-      width: auto;
-      margin: 3px 0;
-  }
-  .score-panel .stars {
-      margin: 0 5px 0 5px;
-  }
-  .container .score-panel .timer {
-      margin-right: 0;
-      padding-right: 0;
-  }
+        @media screen and (max-width: 750px) {
+    .container {
+        width: 250px;
+        display: block;
+        margin: auto;
+        box-sizing: border-box;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    .container {
+        width: 235px;
+        height: 25px;
+        display: flex;
+    }
+    .container {
+        margin: 0 10px 0 10px;
+        padding: 5px 5px 0 5px;
+    }
+    .container {
+        min-width: 78px;
+        min-height: 40px;
+        padding-bottom: 5px;
+        margin-top: 0;
+        padding-top: 0;
+    }
+    .container {
+        margin: 5px;
+        padding: 5px;
+    }
+    .container .score-panel {
+        width: 275px;
+        margin: 0;
+        padding: 0;
+    }
+    .container .deck {
+        width: 232px;
+        min-height: 100px;
+        margin: 10px;
+    }
+    .deck .card {
+        width: 50px;
+        height: 50px;
+        margin: 4px;
+        padding: 2px;
+    }
+    .container .score-panel {
+        font-size: 15px;
+        width: 225px;
+        margin: 10px 0;
+    }
+    .score-panel .stars {
+        margin: 0 5px 0 5px;
+    }
+    .container .score-panel .timer {
+        margin-right: 0;
+        padding-right: 0;
+    }
+    @media screen and (max-width: 475px) {
+        .container {
+            width: 275px;
+            display: block;
+            margin: auto;
+            box-sizing: border-box;
+        }
+        h1 {
+            font-size: 30px;
+        }
+        .container {
+            width: auto;
+            height: auto;
+            display: flex;
+        }
+        .container {
+            margin: 0 10px 0 10px;
+            padding: 5px 5px 0 5px;
+        }
+        .container {
+            min-width: 26px;
+            min-height: 15px;
+            padding-bottom: 5px;
+            margin-top: 0;
+            padding-top: 0;
+        }
+        .container {
+            margin: 5px;
+            padding: 5px;
+        }
+        .container .score-panel {
+            width: 100px;
+            margin: 0;
+            padding: 0;
+        }
+        .container .deck {
+            width: 320px;
+            min-height: 320px;
+            margin: 100px;
+        }
+        .deck .card {
+            width: 50px;
+            height: 50px;
+            margin: 5px;
+            padding: 10px;
+        }
+        .container .score-panel {
+            font-size: 18px;
+            width: auto;
+            margin: 3px 0;
+        }
+        .score-panel .stars {
+            margin: 0 5px 0 5px;
+        }
+        .container .score-panel .timer {
+            margin-right: 0;
+            padding-right: 0;
+        }
